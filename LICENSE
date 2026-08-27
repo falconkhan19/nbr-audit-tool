@@ -1,0 +1,26 @@
+                    GNU GENERAL PUBLIC LICENSE
+                       Version 3, 29 June 2007
+
+ Copyright (C) 2026  NBR Audit Tool Contributors
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+ ---
+
+ NOTE: This is a short-form notice. The full GPLv3 license text should
+ be included here before publishing. Fetch the canonical text from
+ https://www.gnu.org/licenses/gpl-3.0.txt and replace this file's body
+ with it (keeping the copyright line above), or swap in a different
+ OSI-approved license if you prefer — GPLv2/v3 is simply the
+ conventional choice for QGIS plugins since QGIS itself is GPL-licensed.

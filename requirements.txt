@@ -1,0 +1,13 @@
+# Non-core dependencies for the NBR Audit Tool QGIS plugin.
+# QGIS ships its own Python environment, so install these into THAT
+# Python (see README.md > Installation), not your system/site Python.
+#
+#   Windows (OSGeo4W shell):
+#       py3_env
+#       python -m pip install -r requirements.txt
+#
+#   macOS / Linux:
+#       /path/to/qgis/bin/python3 -m pip install -r requirements.txt
+
+pandas>=1.3
+openpyxl>=3.0   # only needed for reading .xlsx EP/relation exports

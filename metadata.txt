@@ -1,0 +1,26 @@
+[general]
+name=NBR Audit Tool (4G/5G Sector & Neighbor Relations)
+qgisMinimumVersion=3.16
+description=Import 4G/5G EP databases, plot sectors, style them, import NRNRELATIONSHIP/NRCELLRELATION files, build audit keys, and run LTE-NR / NR-NR neighbor audits.
+version=1.5
+author=Senior GIS/Telecom Dev
+email=support@example.com
+
+about=Imports 4G and 5G EP (engineering parameter) databases and plots sectors from
+    Azimuth/Latitude/Longitude (with user-selectable Beamwidth and Radius, either from a
+    column or manual entry). Provides full graduated/categorized styling control (manual
+    or field-driven) and supports loading a saved .qml style. Imports NRNRELATIONSHIP
+    (LTE-NR) and NRCELLRELATION (NR-NR) relationship exports, intelligently maps them to
+    the EP layers by CellName, builds join keys (EnodeB/gNodeB ID + Cell ID), and runs a
+    neighbor audit for a chosen 4G or 5G cell, producing filtered "LTE-NR relations" and
+    "NR-NR relations" sector output layers.
+
+tracker=https://github.com/YOUR-USERNAME/nbr-audit-tool/issues
+repository=https://github.com/YOUR-USERNAME/nbr-audit-tool
+tags=telecom,rf,4g,5g,lte,nr,neighbor,sector,azimuth,qgis
+homepage=https://github.com/YOUR-USERNAME/nbr-audit-tool
+category=Plugins
+icon=icon.png
+experimental=False
+deprecated=False
+server=False
